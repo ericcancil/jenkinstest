@@ -1,0 +1,17 @@
+{
+  "name": "cota",
+  "version": "1.0.0",
+  "description": "cota code test",
+  "main": "app.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --reporter spec"
+    },
+  "repository": {},
+  "author": "Eric Cancil",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "request": "^2.79.0"
+  }
+}
