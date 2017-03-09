@@ -4,7 +4,7 @@
   "description": "cota code test",
   "main": "app.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "./node_modules/.bin/mocha --reporter mocha-junit-reporter spec"
   },
   "repository": {},
   "author": "Eric Cancil",
