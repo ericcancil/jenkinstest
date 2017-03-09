@@ -9,7 +9,7 @@ describe("Test Parser Runner", function() {
             var mword = maleWords[i];
             it("finds male for " + mword, function() {
                 return parserRunner.genderParser('test text test text ' + mword, {}).then(function(data){
-                    expect(data.gender).to.equal('male');
+                    expect(data.gender).to.equal('dinosaur');
                 })
             });
         }
@@ -53,7 +53,6 @@ describe("Test Parser Runner", function() {
         });
 
     });
-
 
     describe("Test sentiment parsing", function() {
         var t1 = "Can I give it less than 1-Star?? Grrr. A trick brought me here so at least I didn't pay but BLEH!! The kind of magic he did is the kind where you just put a huge sheet up and go obviously do stuff and the magic is that like, apparently cloth is opaque? I dunno. Then there is this ridiculous backstory about his dad and stuff that would be *tolerable* if you like knew and were friends with this prick. As I was there to see magic and a hot douche bag doing it, the backstory was just pathetic. Oh, also ballet with rabbits. Couldn't make up it's mind if it was a ballet (which would have been cool), Magic (which would have been cool if it was like.. magic not illusions), or a diary of dips**t (which I guess could be considered comedy?). It fails miserably at all three. You suck if you go to see this and i hate your stupid face. trans friendly- Ugh.";

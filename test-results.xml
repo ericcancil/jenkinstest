@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.111" tests="21" failures="0">
-  <testsuite name="Root Suite" timestamp="2017-03-09T18:00:01" tests="0" failures="0" time="0">
+<testsuites name="Mocha Tests" time="0.067" tests="21" failures="0">
+  <testsuite name="Root Suite" timestamp="2017-03-09T18:07:11" tests="0" failures="0" time="0">
   </testsuite>
-  <testsuite name="Test Parser Runner" timestamp="2017-03-09T18:00:01" tests="0" file="/Users/ecancil/Documents/Webstorm Workspace/COTA_TEST/test/runner.js" failures="0" time="0">
+  <testsuite name="Test Parser Runner" timestamp="2017-03-09T18:07:11" tests="0" file="/Users/ecancil/Documents/Webstorm Workspace/COTA_TEST/test/runner.js" failures="0" time="0">
   </testsuite>
-  <testsuite name="Test gender parsing" timestamp="2017-03-09T18:00:01" tests="12" file="/Users/ecancil/Documents/Webstorm Workspace/COTA_TEST/test/runner.js" failures="0" time="0.010000000000000002">
-    <testcase name="Test Parser Runner Test gender parsing finds male for man" time="0.007" classname="finds male for man">
+  <testsuite name="Test gender parsing" timestamp="2017-03-09T18:07:11" tests="12" file="/Users/ecancil/Documents/Webstorm Workspace/COTA_TEST/test/runner.js" failures="0" time="0.005">
+    <testcase name="Test Parser Runner Test gender parsing finds male for man" time="0.003" classname="finds male for man">
     </testcase>
     <testcase name="Test Parser Runner Test gender parsing finds male for male" time="0.001" classname="finds male for male">
     </testcase>
     <testcase name="Test Parser Runner Test gender parsing finds male for guy" time="0" classname="finds male for guy">
     </testcase>
-    <testcase name="Test Parser Runner Test gender parsing finds male for he" time="0.001" classname="finds male for he">
+    <testcase name="Test Parser Runner Test gender parsing finds male for he" time="0" classname="finds male for he">
     </testcase>
-    <testcase name="Test Parser Runner Test gender parsing finds female for woman" time="0" classname="finds female for woman">
+    <testcase name="Test Parser Runner Test gender parsing finds female for woman" time="0.001" classname="finds female for woman">
     </testcase>
     <testcase name="Test Parser Runner Test gender parsing finds female for female" time="0" classname="finds female for female">
     </testcase>
@@ -25,33 +25,33 @@
     </testcase>
     <testcase name="Test Parser Runner Test gender parsing is ambguous for 1 male and one female " time="0" classname="is ambguous for 1 male and one female ">
     </testcase>
-    <testcase name="Test Parser Runner Test gender parsing is ambguous for 1 male and one female " time="0.001" classname="is ambguous for 1 male and one female ">
+    <testcase name="Test Parser Runner Test gender parsing is ambguous for 1 male and one female " time="0" classname="is ambguous for 1 male and one female ">
     </testcase>
     <testcase name="Test Parser Runner Test gender parsing is ambguous for 1 male and one female " time="0" classname="is ambguous for 1 male and one female ">
     </testcase>
   </testsuite>
-  <testsuite name="Test date parsing" timestamp="2017-03-09T18:00:01" tests="2" file="/Users/ecancil/Documents/Webstorm Workspace/COTA_TEST/test/runner.js" failures="0" time="0.003">
+  <testsuite name="Test date parsing" timestamp="2017-03-09T18:07:11" tests="2" file="/Users/ecancil/Documents/Webstorm Workspace/COTA_TEST/test/runner.js" failures="0" time="0.003">
     <testcase name="Test Parser Runner Test date parsing is 7 days long" time="0.002" classname="is 7 days long">
     </testcase>
     <testcase name="Test Parser Runner Test date parsing is 8656 days long" time="0.001" classname="is 8656 days long">
     </testcase>
   </testsuite>
-  <testsuite name="Test sentiment parsing" timestamp="2017-03-09T18:00:01" tests="4" file="/Users/ecancil/Documents/Webstorm Workspace/COTA_TEST/test/runner.js" failures="0" time="0.067">
-    <testcase name="Test Parser Runner Test sentiment parsing it is a negative sentiment text" time="0.043" classname="it is a negative sentiment text">
+  <testsuite name="Test sentiment parsing" timestamp="2017-03-09T18:07:11" tests="4" file="/Users/ecancil/Documents/Webstorm Workspace/COTA_TEST/test/runner.js" failures="0" time="0.04000000000000001">
+    <testcase name="Test Parser Runner Test sentiment parsing it is a negative sentiment text" time="0.023" classname="it is a negative sentiment text">
     </testcase>
-    <testcase name="Test Parser Runner Test sentiment parsing it is a positive sentiment text" time="0.017" classname="it is a positive sentiment text">
+    <testcase name="Test Parser Runner Test sentiment parsing it is a positive sentiment text" time="0.012" classname="it is a positive sentiment text">
     </testcase>
-    <testcase name="Test Parser Runner Test sentiment parsing it is a negative mixed text" time="0.002" classname="it is a negative mixed text">
+    <testcase name="Test Parser Runner Test sentiment parsing it is a negative mixed text" time="0.001" classname="it is a negative mixed text">
     </testcase>
-    <testcase name="Test Parser Runner Test sentiment parsing it is an unkown sentiment text" time="0.005" classname="it is an unkown sentiment text">
+    <testcase name="Test Parser Runner Test sentiment parsing it is an unkown sentiment text" time="0.004" classname="it is an unkown sentiment text">
     </testcase>
   </testsuite>
-  <testsuite name="Test the runner itself" timestamp="2017-03-09T18:00:02" tests="3" file="/Users/ecancil/Documents/Webstorm Workspace/COTA_TEST/test/runner.js" failures="0" time="0.031">
-    <testcase name="Test Parser Runner Test the runner itself days are correct" time="0.009" classname="days are correct">
+  <testsuite name="Test the runner itself" timestamp="2017-03-09T18:07:11" tests="3" file="/Users/ecancil/Documents/Webstorm Workspace/COTA_TEST/test/runner.js" failures="0" time="0.019">
+    <testcase name="Test Parser Runner Test the runner itself days are correct" time="0.006" classname="days are correct">
     </testcase>
-    <testcase name="Test Parser Runner Test the runner itself gender is correct" time="0.012" classname="gender is correct">
+    <testcase name="Test Parser Runner Test the runner itself gender is correct" time="0.006" classname="gender is correct">
     </testcase>
-    <testcase name="Test Parser Runner Test the runner itself sentiment is correct" time="0.01" classname="sentiment is correct">
+    <testcase name="Test Parser Runner Test the runner itself sentiment is correct" time="0.007" classname="sentiment is correct">
     </testcase>
   </testsuite>
 </testsuites>
