@@ -4,7 +4,7 @@ var parserRunner = require("../build/parse/ParserRunner");
 
 describe("Test Parser Runner", function() {
     describe("Test gender parsing", function() {
-        var maleWords = ['man', 'asdf', 'guy', 'he'];
+        var maleWords = ['man', 'male', 'guy', 'he'];
         for(var i = 0; i < maleWords.length; i ++){
             var mword = maleWords[i];
             it("finds male for " + mword, function() {
