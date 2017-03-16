@@ -4,7 +4,7 @@ var parserRunner = require("../build/parse/ParserRunner");
 
 describe("Test Parser Runner", function() {
     describe("Test gender parsing", function() {
-        var maleWords = ['man', 'male', 'guy', 'he'];
+        var maleWords = ['man', 'asdf', 'guy', 'he'];
         for(var i = 0; i < maleWords.length; i ++){
             var mword = maleWords[i];
             it("finds male for " + mword, function() {
@@ -46,7 +46,7 @@ describe("Test Parser Runner", function() {
             })
         });
 
-        it("is 8656 days long", function(){
+        it("is 6856 days long", function(){
             return parserRunner.dateParser(t2, {}).then(function(data){
                 expect(data.timeDuration.totalDuration).to.equal(6856);
             })
