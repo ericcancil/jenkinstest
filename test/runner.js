@@ -9,7 +9,7 @@ describe("Test Parser Runner", function() {
             var mword = maleWords[i];
             it("finds male for " + mword, function() {
                 return parserRunner.genderParser('test text test text ' + mword, {}).then(function(data){
-                    expect(data.gender).to.equal('asdf');
+                    expect(data.gender).to.equal('male');
                 })
             });
         }
